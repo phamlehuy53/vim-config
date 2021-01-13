@@ -76,7 +76,7 @@
   ],
   "prettier.statusItemText": "ⓟ ",
   "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": false,
+  "prettier.tslintIntegration": true,
   "prettier.stylelintIntegration": false,
   "prettier.disableSuccessMessage": true,
   //emmet
@@ -110,7 +110,8 @@
     "typescript",
     "typescriptreact"
   ],
-	"eslint.nodePath": "/home/huy/.config/coc/extensions/node_modules/coc-eslint",
+  // "eslint.nodePath": "/usr/lib/node_modules",
+  "eslint.nodePath": "/home/huy/.config/coc/extensions/node_modules/coc-eslint",
   "eslint.autoFix": true,
   "eslint.autoFixOnSave": true,
   // coc-actions

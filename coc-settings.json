@@ -1,11 +1,11 @@
 
 {
   "suggest.triggerAfterInsertEnter": false,
-  "suggest.timeout": 500,
+  "suggest.timeout": 2000,
   "suggest.noselect": false,
   "suggest.detailField": "abbr",
   "suggest.snippetIndicator": "🌟",
-  "suggest.triggerCompletionWait": 100,
+  "suggest.triggerCompletionWait": 200,
   "suggest.echodocSupport": true,
   "suggest.completionItemKindLabels": {
     "keyword": "\uf1de",
@@ -85,7 +85,6 @@
     "javascript": "javascriptreact",
     "typescriptreact": "typescriptreact"
   },
-  //imselect
   "imselect.enableStatusItem": false,
   //multiple curssor
   "cursors.nextKey": "<C-n>",
@@ -152,5 +151,6 @@
     "yaml",
     "yml",
     "vim"
-  ]
+  ],
+	"python.jediEnabled": true
 }

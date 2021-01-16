@@ -72,3 +72,4 @@ nmap <C-w>] :vertical resize +3<CR>
 " Session management shortcuts (see plugin/sessions.vim)
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
+

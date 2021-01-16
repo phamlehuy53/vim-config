@@ -259,7 +259,7 @@ nnoremap <leader>aQ :IPythonCellRestart<CR>
 nnoremap <leader>ad :SlimeSend1 %debug<CR>
 nnoremap <leader>aq :SlimeSend1 exit<CR>
 autocmd filetype python nnoremap <F2> :SlimeSend1 python % <CR>
-
+"let g:ipython_cell_tag = ['# %%', '#%%', '# <codecell>', '##']
 
 " Goyo
 nnoremap <Leader>G :Goyo<CR>
@@ -269,3 +269,15 @@ nnoremap <silent> <Leader>om  :<C-u>MarkdownPreview<CR>
 
 " Open dashboard
 nnoremap <silent> <Leader>os  :<C-u>Dashboard<CR>
+
+"""""""""""
+""Far.vim""
+""""""""
+
+" shortcut for far.vim find
+nnoremap <silent> <localleader>f  :Farf<cr>
+vnoremap <silent> <localleader>f  :Farf<cr>
+
+" shortcut for far.vim replace
+nnoremap <silent> <localleader>r  :Farr<cr>
+vnoremap <silent> <localleader>r  :Farr<cr>

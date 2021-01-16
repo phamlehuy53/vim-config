@@ -32,6 +32,7 @@ hook_add = '''
 		\ 'coc-docthis',
 		\ 'coc-python',
 		\ 'coc-html',
+		\ 'coc-emmet',
 		\ 'coc-style-helper',
 		\ 'coc-react-refactor',
 		\]

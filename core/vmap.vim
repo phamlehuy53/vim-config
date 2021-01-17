@@ -69,3 +69,19 @@ nnoremap <leader>wv :<C-u>vs<CR>
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
 
+
+"----------------------"
+"Yilin-Yang/vim-markbar"
+"----------------------"
+" Jump to marks using <Enter>,
+"    Move the cursor to the next mark in the markbar using n,
+"    Move the cursor to the previous mark in the markbar using N,
+"    Rename marks using r,
+"    Clear the name of a mark using c,
+"    Delete marks entirely using d.
+nmap <Leader>M <Plug>ToggleMarkbar
+
+"-----------------"
+"simeji/winresizer"
+"-----------------"
+" Shortkeys for open interactive console: <C-e>

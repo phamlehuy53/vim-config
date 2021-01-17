@@ -113,6 +113,7 @@ xmap V <Plug>(expand_region_shrink)
 nmap dsf <Plug>DsfDelete
 nmap csf <Plug>DsfChange
 
+" Prettier splits and joins patterns inside (), {}, [],...
 let g:splitjoin_join_mapping = ''
 let g:splitjoin_split_mapping = ''
 nmap sj :SplitjoinJoin<CR>
@@ -270,11 +271,10 @@ nnoremap <silent> <Leader>om  :<C-u>MarkdownPreview<CR>
 " Open dashboard
 nnoremap <silent> <Leader>os  :<C-u>Dashboard<CR>
 
-"""""""""""
-""Far.vim""
-""""""""
-
-" shortcut for far.vim find
+"-------"
+"Far.vim"
+"-------"
+"shortcut for far.vim find
 nnoremap <silent> <localleader>f  :Farf<cr>
 vnoremap <silent> <localleader>f  :Farf<cr>
 
